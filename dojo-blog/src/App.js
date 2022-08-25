@@ -1,4 +1,6 @@
-import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
+
 
 //component is a function and we must always return something in that function. Written in JSX template
 function App() {
@@ -15,9 +17,9 @@ function App() {
   
   return (
     <div className="App">
+      <Navbar/>
       <div className="content">
-       
-      <h1>{ title } </h1>
+       <Home/>
       
       </div>
     </div>

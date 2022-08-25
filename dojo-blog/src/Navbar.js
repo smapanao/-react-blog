@@ -4,6 +4,14 @@ const Navbar = () => {
             <h1>The Dojo Blog</h1>
             <div className="links">
                 <a href="/">Home</a>
+                {/* outer braces represent dynamic values, inner represent a javascript object */}
+                {/* How to do inline styling: */}
+                {/* <a href="/create" style={{
+                    color: "white",
+                    backgroundColor: "#f1356d",
+                    borderRadius: "8px"
+                }}>New Blog</a> */}
+
                 <a href="/create">New Blog</a>
             </div>
         </nav>
